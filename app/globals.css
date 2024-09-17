@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --primary-color: #5a5a5a;
+  --primary-color: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +18,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: black;
   display: block;
   width: 100vw;
   background-color: var(--primary-color);
