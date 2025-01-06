@@ -77,7 +77,7 @@ export default function Train() {
         {isError && <p className="text-xl">Error</p> }
         {isLoading && <p className="text-xl">Loading</p> }
         {data.length > 0 ? <Table allData={data} /> : false}
-        {fig && figure}
+        {/* {fig && figure} */}
     </div>
   );
 }
